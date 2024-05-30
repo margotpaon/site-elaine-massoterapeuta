@@ -7,6 +7,10 @@
 /**
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
-exports.onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: `en` })
+
+import * as React from "react"
+import { ChakraProvider } from "@chakra-ui/react"
+
+export const wrapRootElement = ({ element }) => {
+  return <ChakraProvider>{element}</ChakraProvider>
 }
