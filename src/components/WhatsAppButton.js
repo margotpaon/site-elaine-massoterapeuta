@@ -4,7 +4,6 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
   return (
-    
     <Link
       href="https://wa.me/5511952732303?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20drenagem%20linfática."
       target="_blank"
@@ -21,8 +20,6 @@ const WhatsAppButton = () => {
       >         <FaWhatsapp color='white' size={70}/>
       </Box>
     </Link>
-
-
   );
 };
 
