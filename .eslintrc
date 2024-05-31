@@ -1,0 +1,20 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    // Aqui você pode definir suas regras personalizadas do ESLint
+    // Por exemplo:
+    // "no-console": "warn", // Avisa sobre o uso de console.log
+    // "no-unused-vars": "warn" // Avisa sobre variáveis não utilizadas
+  }
+}
