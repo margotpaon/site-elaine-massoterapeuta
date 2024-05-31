@@ -1,25 +1,28 @@
 import React from 'react';
-import { Link, Box, IconButton } from '@chakra-ui/react';
+import { Link, Box } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
   return (
-    <Link href="https://wa.me/5511999999999" isExternal>
-      <Box
-        position="fixed"
-        bottom="45"
-        right="4"
-        zIndex="1000"
+    
+    <Link
+      href="https://wa.me/5511952732303?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20drenagem%20linfática."
+      target="_blank"
+      rel="noopener noreferrer"
       >
-        <IconButton
-          icon={<FaWhatsapp />}
-          colorScheme="whatsapp"
-          isRound={true}
-          size="lg"
-          aria-label="Contact us on WhatsApp"
-        />
+      <Box zIndex="1000"
+        position="fixed"
+        bottom="150px" 
+        right="6%"
+        bg={'teal'}
+        borderRadius="full"
+        size={70}
+        padding={'15px'}
+      >         <FaWhatsapp color='white' size={70}/>
       </Box>
     </Link>
+
+
   );
 };
 

@@ -9,21 +9,25 @@ const HeroSection = () => {
       display="flex"
       justifyContent="center"
       alignItems="center"
-      bgImage="url('/path/to/your/background-image.jpg')" // opcional, para adicionar uma imagem de fundo
-      bgSize="cover"
-      bgPosition="center"
+      bg="white" // fundo branco conforme a imagem fornecida
       color="black"
       px={4}
+      textAlign="center"
     >
-      <VStack spacing={4} textAlign="center">
-        <Heading as="h1" size="2xl">
-          Bem-vindo ao Nosso Site
+      <VStack spacing={4}>
+        <Heading as="h1" size="2xl" fontWeight="bold">
+          Domine as Maiores Ferramentas de Vendas da Internet
         </Heading>
-        <Heading as="h2" size="lg">
-          Nós oferecemos soluções inovadoras
-        </Heading>
-        <Button colorScheme="teal" size="lg">
-          Saiba Mais
+        <Text fontSize="lg">
+          Atraia mais clientes com anúncios inteligentes no Google, Youtube, Facebook e Instagram
+        </Text>
+        <Button
+          colorScheme="green"
+          bgGradient="linear(to-r, green.300, green.500)"
+          size="lg"
+          px={8}
+        >
+          Quero entrar na mentoria
         </Button>
       </VStack>
     </Box>
