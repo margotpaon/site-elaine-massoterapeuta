@@ -15,9 +15,9 @@ const IndexPage = () => (
       <Header />
       <HeroSection />
       <About />
-      <Box my={10}>
+      {/* <Box my={10}>
         <LeafletMap />
-      </Box>
+      </Box> */}
       <FAQComponent />
       <Footer />
       <WhatsAppButton />
