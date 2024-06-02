@@ -1,15 +1,18 @@
-import React from 'react';
-import { Box } from '@chakra-ui/react';
+// src/components/Layout.js
+
+import React from "react"
+import { Box, Container } from "@chakra-ui/react"
+import SEO from "./seo"
 
 const Layout = ({ children }) => {
   return (
-    
     <Box>
-      <Box>
+      <SEO />
+      <Container maxW="container.xl">
         {children}
-      </Box>
+      </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
