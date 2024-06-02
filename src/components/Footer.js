@@ -1,3 +1,5 @@
+// src/components/Footer.js
+
 import React from 'react';
 import { Box, Text, Link, VStack } from '@chakra-ui/react';
 
@@ -9,10 +11,6 @@ const Footer = () => {
       bg="gray.800"
       color="white"
       py={4}
-      position="fixed"
-      bottom="0"
-      left="0"
-      zIndex="1000"
     >
       <VStack spacing={2}>
         <Text fontSize="lg" fontWeight="bold">
